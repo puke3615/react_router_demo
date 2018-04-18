@@ -1,0 +1,13 @@
+.component_header {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.component_header a {
+    text-decoration:none;
+    color: green;
+    font-size: 20px;
+}
