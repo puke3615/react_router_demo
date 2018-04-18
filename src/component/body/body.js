@@ -15,10 +15,10 @@ export default class Body extends Component {
         return (
             <div className={'component_body'}>
                 <Switch>
-                    <Route exact path={['/', '/app']} component={App}/>
-                    <Route exact path={'/goods_list'} component={GoodsListModel}/>
-                    <Route exact path={'/goods_detail'} component={GoodsDetail}/>
-                    <Route exact path={'/about'} component={About}/>
+                    <Route exact path={['/react_router_demo/build/', '/react_router_demo/build/app']} component={App}/>
+                    <Route exact path={'/react_router_demo/build/goods_list'} component={GoodsListModel}/>
+                    <Route exact path={'/react_router_demo/build/goods_detail'} component={GoodsDetail}/>
+                    <Route exact path={'/react_router_demo/build/about'} component={About}/>
                 </Switch>
             </div>
         );

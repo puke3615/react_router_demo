@@ -8,7 +8,7 @@ import {BrowserRouter} from "react-router-dom";
 
 
 ReactDOM.render(
-    <BrowserRouter basename={'/react_router_demo/build'}>
+    <BrowserRouter>
         <div>
             <Header/>
             <Body/>
